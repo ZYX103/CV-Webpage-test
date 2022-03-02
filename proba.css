@@ -1,0 +1,35 @@
+body {
+}
+
+.container {
+  display: grid;
+  place-content: center;
+  position: relative;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  grid-template-rows: auto auto auto;
+  gap: 1rem;
+  margin: 50px auto;
+}
+
+.a {
+  grid-row: 1 / span 3;
+  background-color: cadetblue;
+  height: 500px;
+}
+
+.b {
+  background-color: chartreuse;
+}
+
+.c {
+  background-color: rgb(26, 89, 206);
+}
+.d {
+  background-color: rgb(241, 73, 110);
+}
+
+.prozor {
+  border-radius: 20px;
+}
